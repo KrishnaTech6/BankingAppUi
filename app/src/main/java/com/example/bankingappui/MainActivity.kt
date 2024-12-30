@@ -68,7 +68,7 @@ fun HomeScreen() {
         }
     ) { innerPadding ->
         Column(modifier = Modifier.fillMaxSize().padding(innerPadding)){
-            //WalletSection()
+            WalletSection()
             //CardsSection()
             Spacer(Modifier.height(16.dp))
             //FinanceSection()
